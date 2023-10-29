@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Panitia Natal</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers" />
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media" />
+    <link rel="shortcut icon" href="logobem.ico" />
+
+    <!-- FontAwesome JS-->
+    <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
+
+    <!-- App CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/portal.css" />
+  </head>
+
+  <body class="app">
+    <header class="app-header fixed-top">
+      <div class="app-header-inner">
+        <div class="container-fluid py-2">
+          <div class="app-header-content">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-auto">
+                <a id="sidepanel-toggler" class="sidepanel-toggler d-inline-block d-xl-none" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img">
+                    <title>Menu</title>
+                    <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="app-utilities col-auto">
+                <div class="app-utility-item app-user-dropdown dropdown">
+                  <a class="dropdown-toggle" id="user-dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> BEM FIKOM UMI <img src="assets/images/logobem.png" alt="user profile" /></a>
+                </div>
+                <!--//app-user-dropdown-->
+              </div>
+              <!--//app-utilities-->
+            </div>
+            <!--//row-->
+          </div>
+          <!--//app-header-content-->
+        </div>
+        <!--//container-fluid-->
+      </div>
+      <!--//app-header-inner-->
+      <div id="app-sidepanel" class="app-sidepanel sidepanel-hidden">
+        <div id="sidepanel-drop" class="sidepanel-drop"></div>
+        <div class="sidepanel-inner d-flex flex-column">
+          <a href="#" id="sidepanel-close" class="sidepanel-close d-xl-none">&times;</a>
+          <div class="app-branding">
+            <a class="app-logo" href="index.html"><img class="logo-icon me-2" src="assets/images/logoumi.png" alt="logo" /><span class="logo-text">PANITIA NATAL</span></a>
+          </div>
+          <!--//app-branding-->
+          <nav id="app-nav-main" class="app-nav app-nav-main flex-grow-1">
+            <ul class="app-menu list-unstyled accordion" id="menu-accordion">
+              <li class="nav-item">
+                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                <a class="nav-link" href="index.html">
+                  <span class="nav-icon">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill-rule="evenodd"
+                        d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"
+                      />
+                      <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                  </span>
+                  <span class="nav-link-text">Overview</span> </a
+                ><!--//nav-link-->
+              </li>
+              <!--//nav-item-->
+
+              <!--//nav-item-->
+
+              <!--//nav-item-->
+              <li class="nav-item has-submenu">
+                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                <a class="nav-link submenu-toggle active" href="#" data-bs-toggle="collapse" data-bs-target="#submenu-1" aria-expanded="true" aria-controls="submenu-1">
+                  <span class="nav-icon">
+                    <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-files" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M4 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4z" />
+                      <path d="M6 0h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1H4a2 2 0 0 1 2-2z" />
+                    </svg>
+                  </span>
+                  <span class="nav-link-text">BPH</span>
+                  <span class="submenu-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg> </span
+                  ><!--//submenu-arrow--> </a
+                ><!--//nav-link-->
+                <div id="submenu-1" class="collapse submenu submenu-1 show" data-bs-parent="#menu-accordion">
+                  <ul class="submenu-list list-unstyled">
+                    <li class="submenu-item"><a class="submenu-link" href="ketua.html">Ketua</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="waket.html">Wakil Ketua</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="sekretaris.html">Sekretaris</a></li>
+                    <li class="submenu-item"><a class="submenu-link active" href="bendahara.html">Bendahara</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!--//nav-item-->
+              <li class="nav-item has-submenu">
+                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                <a class="nav-link submenu-toggle" href="#" data-bs-toggle="collapse" data-bs-target="#submenu-2" aria-expanded="false" aria-controls="submenu-2">
+                  <span class="nav-icon">
+                    <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-columns-gap" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill-rule="evenodd"
+                        d="M6 1H1v3h5V1zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12h-5v3h5v-3zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8H1v7h5V8zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6h-5v7h5V1zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"
+                      />
+                    </svg>
+                  </span>
+                  <span class="nav-link-text">Koordinator</span>
+                  <span class="submenu-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg> </span
+                  ><!--//submenu-arrow--> </a
+                ><!--//nav-link-->
+                <div id="submenu-2" class="collapse submenu submenu-2" data-bs-parent="#menu-accordion">
+                  <ul class="submenu-list list-unstyled">
+                    <li class="submenu-item"><a class="submenu-link" href="acara.html">Acara</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="konsumsi.html">Konsumsi</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="keamanan.html">Keamanan</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="dekorasi.html">Dekorasi</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="dokumentasi.html">dokumentasi</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="dana.html">dana</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="ptt.html">ptt</a></li>
+                  </ul>
+                </div>
+              </li>
+                <!--//nav-item-->
+              </ul>
+              <!--//footer-menu-->
+            </nav>
+          </div>
+          <!--//app-sidepanel-footer-->
+        </div>
+        <!--//sidepanel-inner-->
+      </div>
+      <!--//app-sidepanel-->
+    </header>
+    <!--//app-header-->
+
+    <div class="app-wrapper">
+      <div class="app-content pt-3 p-md-3 p-lg-4">
+        <div class="container-xl">
+          <div class="position-relative mb-3">
+            <div class="row g-3 justify-content-between">
+              <div class="col-auto">
+                <h1 class="app-page-title mb-0">Calon Bendahara</h1>
+              </div>
+              <div class="col-auto">
+                
+                <!--//page-utilities-->
+              </div>
+            </div>
+          </div>
+
+          <div class="app-card app-card-notification shadow-sm mb-4">
+            <div class="app-card-header px-4 py-3">
+              <div class="row g-3 align-items-center">
+                <div class="col-12 col-lg-auto text-center text-lg-start">
+                  <img class="profile-image" src="assets/images/profiles/jonatan.png" alt="" />
+                </div>
+                <!--//col-->
+                <div class="col-12 col-lg-auto text-center text-lg-start">
+                  <div class="notification-type mb-2"><span class="badge bg-info">bendahara nomor urut 1</span></div>
+                  <h4 class="notification-title mb-1">Jonatan Tampubolon</h4>
+
+                  <ul class="notification-meta list-inline mb-0">
+                    <li class="list-inline-item">220520068</li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item">7SI-B</li>
+                  </ul>
+                </div>
+                <!--//col-->
+              </div>
+              <!--//row-->
+            </div>
+            <!--//app-card-header-->
+            <div class="app-card-body p-4">
+              <div class="notification-content">
+                <b>Alasan Memilih Bendahara :</b> <br />
+                <ol>
+                  <li>
+                    Untuk mengasah mental
+                    <ul>
+                      <li>
+                        Untuk menjadi seorang bendahara sangat tidak mudah karena disini harus untuk berani dalam bertanggung jawab dalam hal keuangan sehingga saya tertarik sebagai bendahara natal agar saya mampu mengasah keberanian dan
+                        mental saya.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Melatih ketelitian
+                    <ul>
+                      <li>Untuk menjadi seorang bendahara dituntun agar lebih teliti yang tinggi soal keuangan</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Melatih untuk memanejemen keuangan
+                    <ul>
+                      <li>Sebagai bendahara harus mampu memanajemen/mengolah keuangan dengan baik maka dari itu saya memberanikan diri agar saya mampu berlatih dalam hal memanejemen keuangan dengan baik</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Mengasah kemampuan dalam berpendapat
+                    <ul>
+                      <li>Mengapa saya memilih agar saya mampu berpendapat dengan cara penyaringan dan pengolahan kata dengan baik dan benar serta mampu beradaptasi</li>
+                    </ul>
+                  </li>
+                </ol>
+
+                <b> Visi : </b> <br />
+                <ol>
+                  <li>Menjadi bendahara natal yang bertanggung jawab dan bijak dalam mengelola dana yang diperlukan untuk perayaan natal dan memastikan bahwa semua keuangan digunakan dengan benar dan tepat</li>
+                  <li>Mempersiapkan dan menyediakan sumber daya keuangan yang cukup untuk mendukung segala aspek perayaan natal,termasuk dekorasi,seksi pelayanan altar,dokumentasi dll</li>
+                  <li>Transparan terhadap pemasukan dan pengeluaran keuangan serta memastikan bahwa semua sumbangan baik berbentuk proposal maupun berbentuk bazar harus tercatat dengan baik.</li>
+                </ol>
+
+                <b> Misi : </b> <br />
+                <ol>
+                  <li>Memastikan dana natal digunakan dengan bijak,dan mengalokasikan dana sesuai kebutuhan yang paling mendesak</li>
+                  <li>Mengelola proses pengumpulan dana untuk natal baik melalui bazar maupun proposal maupun sumber dana lainnya</li>
+                </ol>
+              </div>
+            </div>
+            <!--//app-card-body-->
+            <div class="app-card-footer px-4 py-3">
+              <a class="action-link" href="https://www.instagram.com/p/Cy-RVyIPSNI/?hl=id"
+                >Lihat video perkenalan<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+            <!--//app-card-footer-->
+          </div>
+          <!--//app-card-->
+
+          <div class="app-card app-card-notification shadow-sm mb-4">
+            <div class="app-card-header px-4 py-3">
+              <div class="row g-3 align-items-center">
+                <div class="col-12 col-lg-auto text-center text-lg-start">
+                  <img class="profile-image" src="assets/images/profiles/wenny.png" alt="Indriani Rumapea" />
+                </div>
+                <!--//col-->
+                <div class="col-12 col-lg-auto text-center text-lg-start">
+                  <div class="notification-type mb-2"><span class="badge bg-info">Bendahara nomor urut 2</span></div>
+                  <h4 class="notification-title mb-1">Wenny Siagian</h4>
+
+                  <ul class="notification-meta list-inline mb-0">
+                    <li class="list-inline-item">220520076</li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item">7SI-C</li>
+                  </ul>
+                </div>
+                <!--//col-->
+              </div>
+              <!--//row-->
+            </div>
+            <!--//app-card-header-->
+            <div class="app-card-body p-4">
+              <div class="notification-content">
+                <b> Visi :</b> <br />
+                Saya ingin menjadi bendahara yang handal dan bertanggung jawab, dan dapat memberikan kontribusi positif untuk kelancaran keuangan dan pertumbuhan organisasi natal yang akan dilaksanakan.
+                <br /><br />
+                <b>Misi :</b> <br />
+                <ol>
+                  <li>Mengelola Dana Natal dengan Transparan : Misi untuk memastikan bahwa semua dana Natal dielola dengan transparan dan akurat, sehingga setiap sumbangan dan pengeluaran dapat dipertanggungjawabkan dengan jelas.</li>
+                  <li>Memberikan Pengalaman Natal yang Bermakna : Berusaha menggalang dana dengan cara yang efisien, memaksimalkan kontribusi mahasiswa dan mendukung kegiatan Natal kampus tanpa membebankan anggaran secara berlebihan.</li>
+                  <li>Membangun Semangat Kebersamaan : Fokus pada misi untuk membangun semangat kebersamaan di antara mahasiswa, staf, dan fakultas melalui kegiatan Natal yang melibatkan semua pihak.</li>
+                  <li>Memberikan laporan keuangan yang jelas dan mudah dimengerti.</li>
+                </ol>
+              </div>
+            </div>
+            <!--//app-card-body-->
+            <div class="app-card-footer px-4 py-3">
+              <a class="action-link" href="https://www.instagram.com/p/Cy-TaF2POV5/?hl=id"
+                >Lihat video perkenalan<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+            <!--//app-card-footer-->
+          </div>
+          <!--//app-card-->
+        </div>
+        <!--//container-fluid-->
+      </div>
+      <!--//app-content-->
+
+      <footer class="app-footer">
+        <div class="container text-center py-3">
+          <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+          <small class="copyright"
+            >Developer <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a"></i> by <a class="app-link" href="https://www.instagram.com/dody.sianipar04/?hl=id" target="_blank">Dody Sianipar</a> for
+            <a class="app-link" href="https://www.instagram.com/bemfikomumi_/?hl=id" target="_blank">BEM FIKOM UMI</a></small
+          >
+        </div>
+      </footer>
+      <!--//app-footer-->
+    </div>
+
+    <!--//app-wrapper-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Page Specific JS -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
